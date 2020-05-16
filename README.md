@@ -8,7 +8,7 @@ This extension backs up and downloads a text file of the showdown_teams value in
 As this extension is not on the official Chrome Store, the installation process is a little different.
 
 1. Download this project
-2. Unzip the extension to a folder you like
+2. Unzip the extension and extract its contents to a folder anywhere that you want
 3. Go to chrome://extensions and turn on Developer Mode
 4. Click "Load unpacked" and select the folder that you extracted this extension to
 5. Accept anything that needs to be accepted
