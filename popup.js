@@ -5,6 +5,7 @@ chrome.tabs.executeScript(null, {code: "var stored"});
 function backup(){
 stored = '';
 //makes the stored variable global so that the code in backup.js will run properly
+//chrome.tabs.executeScript injects the script into the browser and runs it on the website
 chrome.tabs.executeScript(null, {code: "window.stored = window.localStorage.getItem('showdown_teams')"});
 chrome.tabs.executeScript(null, {file: "backup.js"}, function(){});
 }
@@ -39,6 +40,7 @@ function restoreText(){
                     fileResult = fileReader.result;
                     //localstorage keys will only accept strings, so the text that is uploaded has to be stringified to work
                     chrome.tabs.executeScript(null, {code: "window.localStorage.setItem('showdown_teams'" + "," + JSON.stringify(fileResult) + ")" });
+                    chrome.tabs.executeScript(null, {code: "location.reload();" });
                     return fileResult
                 }
                 fileReader.readAsText(file)
