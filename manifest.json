@@ -3,7 +3,7 @@
   
     "name": "Showdown Team Backup",
     "description": "Backup and restore Pokemon Showdown! teams using text files.",
-    "version": "0.1",
+    "version": "0.1.1",
     "content_security_policy": "script-src 'self'; object-src 'self'",
     "browser_action": {
       "default_icon": "icon.png",
@@ -15,6 +15,5 @@
       "storage",
       "https://play.pokemonshowdown.com/"
     ]
-    
     
   }
