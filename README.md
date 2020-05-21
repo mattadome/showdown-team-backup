@@ -2,7 +2,7 @@
 Backup and restore Pokemon Showdown! teams using text files.
 
 Pokémon and Pokémon character names are trademarks of Nintendo.
-This project is not affiliated with Pokémon Showdown! or its creators.\
+This project is not affiliated with Pokémon Showdown! or its creators.
 
 **Note: Please manually backup your teams before using this extension for the first time. I am not responsible for any missing/damaged teams through the use of this project**
 
